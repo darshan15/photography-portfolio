@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Custom base ── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+/* ── Animations ── */
+@keyframes kenBurns {
+  0%   { transform: scale(1)    translateX(0)    translateY(0); }
+  33%  { transform: scale(1.08) translateX(-1%)  translateY(-0.5%); }
+  66%  { transform: scale(1.05) translateX(1%)   translateY(0.5%); }
+  100% { transform: scale(1.1)  translateX(0)    translateY(-1%); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.animate-ken-burns {
+  animation: kenBurns 22s ease-in-out infinite alternate;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out both;
+}
+
+.animation-delay-100 { animation-delay: 0.1s; }
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-300 { animation-delay: 0.3s; }
+.animation-delay-500 { animation-delay: 0.5s; }
+.animation-delay-700 { animation-delay: 0.7s; }
+
+/* ── Shimmer skeleton ── */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    theme('colors.neutral.200') 25%,
+    theme('colors.neutral.100') 50%,
+    theme('colors.neutral.200') 75%
+  );
+  background-size: 400px 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.dark .shimmer {
+  background: linear-gradient(
+    90deg,
+    theme('colors.neutral.800') 25%,
+    theme('colors.neutral.700') 50%,
+    theme('colors.neutral.800') 75%
+  );
+  background-size: 400px 100%;
+}
+
+/* ── Masonry grid ── */
+.masonry-grid {
+  column-count: 2;
+  column-gap: 6px;
+}
+
+@media (min-width: 640px)  { .masonry-grid { column-count: 3; } }
+@media (min-width: 1024px) { .masonry-grid { column-count: 4; } }
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 6px;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { @apply bg-neutral-100 dark:bg-neutral-900; }
+::-webkit-scrollbar-thumb { @apply bg-neutral-300 dark:bg-neutral-700 rounded-full; }
+::-webkit-scrollbar-thumb:hover { @apply bg-neutral-400 dark:bg-neutral-600; }

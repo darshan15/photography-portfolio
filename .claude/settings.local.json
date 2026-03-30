@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite:*)",
+      "Bash(grep -oE 'content=\"\"\"\"[^\"\"\"\"]{10,300}\"\"\"\"' /Users/darshan/.claude/projects/-Users-darshan-Documents-Photography/fe882d7d-79d2-467e-bc71-21d4b9c9c3c6/tool-results/byv0t318s.txt)"
+    ]
+  }
+}

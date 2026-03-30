@@ -1,0 +1,457 @@
+{
+  "photographer": {
+    "name": "Darshan Patel",
+    "tagline": "Capturing Life's Precious Moments — One Frame at a Time",
+    "bio": "Hi, I'm Darshan Patel — a professional photographer with a passion for storytelling. I specialize in the moments that matter most: housewarming ceremonies that mark new beginnings, birthday and farewell celebrations, baby showers filled with the joy of new life, and personal or professional photoshoots that truly showcase your personality.\n\nI bring state-of-the-art equipment, a creative eye, and a friendly, approachable presence to every session — so you can relax and be yourself while I capture the moments worth remembering forever.\n\nWith a quick 24–48 hour turnaround and personalized service tailored to your vision, my goal is simple: to make every memory last.",
+    "bio_short": "Professional photographer specializing in housewarmings, celebrations, baby showers, events, and personal photoshoots — with 24–48 hr delivery.",
+    "headshot": "https://picsum.photos/seed/photographer-darshan/400/500",
+    "hero_image": "https://picsum.photos/seed/hero-photography-main/1920/1080",
+    "years_experience": 2,
+    "events_captured": 80,
+    "happy_clients": 60,
+    "countries_traveled": 5,
+    "email": "dphotography1511@gmail.com",
+    "phone": "(551) 226-2151",
+    "location": "Austin, Texas",
+    "instagram": "@through._.my_lens",
+    "facebook": "through._.my_lens",
+    "twitter": "@through._.my_lens",
+    "linkedin": "darshan15patel",
+    "equipment": ["DSLR & Mirrorless Cameras", "Prime & Zoom Lenses", "Natural Light & Studio Lighting", "Adobe Lightroom & Photoshop", "Drone Photography"]
+  },
+  "services": [
+    {
+      "id": "housewarming",
+      "title": "Housewarming Ceremonies",
+      "description": "Marking new beginnings with beautiful photographs. From the first walk-through to the celebration with loved ones, every detail of your new chapter captured with warmth.",
+      "starting_price": "Contact for pricing",
+      "icon": "home"
+    },
+    {
+      "id": "birthdays",
+      "title": "Birthdays & Farewells",
+      "description": "Milestone celebrations and heartfelt farewells deserve unforgettable memories. Vibrant, candid coverage that captures the joy, laughter, and emotion of your special day.",
+      "starting_price": "Contact for pricing",
+      "icon": "sparkles"
+    },
+    {
+      "id": "babyshower",
+      "title": "Baby Showers",
+      "description": "Capturing the pure joy and anticipation of welcoming new life. Tender, beautifully lit photographs that preserve the magic of this once-in-a-lifetime occasion.",
+      "starting_price": "Contact for pricing",
+      "icon": "heart"
+    },
+    {
+      "id": "events",
+      "title": "Event Photography",
+      "description": "Professional coverage of all your special occasions — from intimate gatherings to large-scale events. Delivered within 24–48 hours so your memories are ready fast.",
+      "starting_price": "Contact for pricing",
+      "icon": "camera"
+    },
+    {
+      "id": "portraits",
+      "title": "Personal & Professional Photoshoots",
+      "description": "Headshots, personal branding, and lifestyle portraits tailored to showcase your personality. On location or in studio — I'll make you feel comfortable and confident.",
+      "starting_price": "Contact for pricing",
+      "icon": "user"
+    }
+  ],
+  "albums": [
+    {
+      "id": "weddings",
+      "name": "Weddings & Ceremonies",
+      "description": "Every love story deserves to be told beautifully. These images capture the raw emotion, quiet intimacy, and joyful celebration of couples beginning their forever.",
+      "cover": "https://picsum.photos/seed/wedding-cover-art/800/600",
+      "year": 2024,
+      "photos": [
+        {
+          "id": "w1",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-01/1200/800",
+          "thumbnail": "https://picsum.photos/seed/wedding-01/600/400",
+          "caption": "First Dance at The Plaza Hotel",
+          "is_featured": true
+        },
+        {
+          "id": "w2",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-02/1200/1600",
+          "thumbnail": "https://picsum.photos/seed/wedding-02/600/800",
+          "caption": "Bridal Preparation, Morning Light",
+          "is_featured": false
+        },
+        {
+          "id": "w3",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-03/1200/800",
+          "thumbnail": "https://picsum.photos/seed/wedding-03/600/400",
+          "caption": "Outdoor Ceremony in Central Park",
+          "is_featured": true
+        },
+        {
+          "id": "w4",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-04/800/1200",
+          "thumbnail": "https://picsum.photos/seed/wedding-04/400/600",
+          "caption": "Exchange of Vows",
+          "is_featured": false
+        },
+        {
+          "id": "w5",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-05/1200/800",
+          "thumbnail": "https://picsum.photos/seed/wedding-05/600/400",
+          "caption": "Golden Hour Couple Portrait",
+          "is_featured": false
+        },
+        {
+          "id": "w6",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-06/1200/800",
+          "thumbnail": "https://picsum.photos/seed/wedding-06/600/400",
+          "caption": "Reception — Candid Laughter",
+          "is_featured": true
+        },
+        {
+          "id": "w7",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-07/800/1200",
+          "thumbnail": "https://picsum.photos/seed/wedding-07/400/600",
+          "caption": "Detail — Bouquet & Rings",
+          "is_featured": false
+        },
+        {
+          "id": "w8",
+          "album_id": "weddings",
+          "album_name": "Weddings & Ceremonies",
+          "url": "https://picsum.photos/seed/wedding-08/1200/800",
+          "thumbnail": "https://picsum.photos/seed/wedding-08/600/400",
+          "caption": "Sparkler Send-Off",
+          "is_featured": false
+        }
+      ]
+    },
+    {
+      "id": "portraits",
+      "name": "Portraits & Headshots",
+      "description": "Revealing personality through light and composition. Whether for your professional profile or personal branding, these portraits tell your story with confidence and authenticity.",
+      "cover": "https://picsum.photos/seed/portrait-cover-art/800/600",
+      "year": 2024,
+      "photos": [
+        {
+          "id": "p1",
+          "album_id": "portraits",
+          "album_name": "Portraits & Headshots",
+          "url": "https://picsum.photos/seed/portrait-01/800/1200",
+          "thumbnail": "https://picsum.photos/seed/portrait-01/400/600",
+          "caption": "Executive Headshot — Studio Series",
+          "is_featured": false
+        },
+        {
+          "id": "p2",
+          "album_id": "portraits",
+          "album_name": "Portraits & Headshots",
+          "url": "https://picsum.photos/seed/portrait-02/1200/800",
+          "thumbnail": "https://picsum.photos/seed/portrait-02/600/400",
+          "caption": "Natural Light Studio Portrait",
+          "is_featured": true
+        },
+        {
+          "id": "p3",
+          "album_id": "portraits",
+          "album_name": "Portraits & Headshots",
+          "url": "https://picsum.photos/seed/portrait-03/800/1200",
+          "thumbnail": "https://picsum.photos/seed/portrait-03/400/600",
+          "caption": "Creative Director — Branding Session",
+          "is_featured": false
+        },
+        {
+          "id": "p4",
+          "album_id": "portraits",
+          "album_name": "Portraits & Headshots",
+          "url": "https://picsum.photos/seed/portrait-04/1200/800",
+          "thumbnail": "https://picsum.photos/seed/portrait-04/600/400",
+          "caption": "Lifestyle Portrait — Brooklyn Bridge",
+          "is_featured": true
+        },
+        {
+          "id": "p5",
+          "album_id": "portraits",
+          "album_name": "Portraits & Headshots",
+          "url": "https://picsum.photos/seed/portrait-05/800/1200",
+          "thumbnail": "https://picsum.photos/seed/portrait-05/400/600",
+          "caption": "Artist in Residence",
+          "is_featured": false
+        },
+        {
+          "id": "p6",
+          "album_id": "portraits",
+          "album_name": "Portraits & Headshots",
+          "url": "https://picsum.photos/seed/portrait-06/1200/800",
+          "thumbnail": "https://picsum.photos/seed/portrait-06/600/400",
+          "caption": "Corporate Team Headshots",
+          "is_featured": false
+        },
+        {
+          "id": "p7",
+          "album_id": "portraits",
+          "album_name": "Portraits & Headshots",
+          "url": "https://picsum.photos/seed/portrait-07/800/1200",
+          "thumbnail": "https://picsum.photos/seed/portrait-07/400/600",
+          "caption": "Author Portrait — Window Light",
+          "is_featured": true
+        }
+      ]
+    },
+    {
+      "id": "corporate",
+      "name": "Corporate & Events",
+      "description": "Professional event documentation that elevates your brand narrative. From keynote presentations to networking receptions, every moment captured with precision.",
+      "cover": "https://picsum.photos/seed/corporate-cover-art/800/600",
+      "year": 2024,
+      "photos": [
+        {
+          "id": "c1",
+          "album_id": "corporate",
+          "album_name": "Corporate & Events",
+          "url": "https://picsum.photos/seed/corporate-01/1200/800",
+          "thumbnail": "https://picsum.photos/seed/corporate-01/600/400",
+          "caption": "Annual Leadership Summit 2024",
+          "is_featured": false
+        },
+        {
+          "id": "c2",
+          "album_id": "corporate",
+          "album_name": "Corporate & Events",
+          "url": "https://picsum.photos/seed/corporate-02/1200/800",
+          "thumbnail": "https://picsum.photos/seed/corporate-02/600/400",
+          "caption": "Product Launch — Keynote Address",
+          "is_featured": true
+        },
+        {
+          "id": "c3",
+          "album_id": "corporate",
+          "album_name": "Corporate & Events",
+          "url": "https://picsum.photos/seed/corporate-03/800/1200",
+          "thumbnail": "https://picsum.photos/seed/corporate-03/400/600",
+          "caption": "Conference Networking Reception",
+          "is_featured": false
+        },
+        {
+          "id": "c4",
+          "album_id": "corporate",
+          "album_name": "Corporate & Events",
+          "url": "https://picsum.photos/seed/corporate-04/1200/800",
+          "thumbnail": "https://picsum.photos/seed/corporate-04/600/400",
+          "caption": "Brand Activation — Times Square",
+          "is_featured": false
+        },
+        {
+          "id": "c5",
+          "album_id": "corporate",
+          "album_name": "Corporate & Events",
+          "url": "https://picsum.photos/seed/corporate-05/1200/800",
+          "thumbnail": "https://picsum.photos/seed/corporate-05/600/400",
+          "caption": "Award Ceremony — Grand Hyatt",
+          "is_featured": true
+        },
+        {
+          "id": "c6",
+          "album_id": "corporate",
+          "album_name": "Corporate & Events",
+          "url": "https://picsum.photos/seed/corporate-06/1200/800",
+          "thumbnail": "https://picsum.photos/seed/corporate-06/600/400",
+          "caption": "Team Building Retreat",
+          "is_featured": false
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Nature & Landscapes",
+      "description": "Finding stillness and wonder in the natural world. These landscapes serve as the backdrop for life's greatest stories — and deserve to be witnessed in their full glory.",
+      "cover": "https://picsum.photos/seed/nature-cover-art/800/600",
+      "year": 2023,
+      "photos": [
+        {
+          "id": "n1",
+          "album_id": "nature",
+          "album_name": "Nature & Landscapes",
+          "url": "https://picsum.photos/seed/nature-01/1200/800",
+          "thumbnail": "https://picsum.photos/seed/nature-01/600/400",
+          "caption": "Golden Hour — Catskill Mountains",
+          "is_featured": true
+        },
+        {
+          "id": "n2",
+          "album_id": "nature",
+          "album_name": "Nature & Landscapes",
+          "url": "https://picsum.photos/seed/nature-02/1200/800",
+          "thumbnail": "https://picsum.photos/seed/nature-02/600/400",
+          "caption": "Hudson River at Dusk",
+          "is_featured": false
+        },
+        {
+          "id": "n3",
+          "album_id": "nature",
+          "album_name": "Nature & Landscapes",
+          "url": "https://picsum.photos/seed/nature-03/800/1200",
+          "thumbnail": "https://picsum.photos/seed/nature-03/400/600",
+          "caption": "Autumn Foliage — Upstate New York",
+          "is_featured": false
+        },
+        {
+          "id": "n4",
+          "album_id": "nature",
+          "album_name": "Nature & Landscapes",
+          "url": "https://picsum.photos/seed/nature-04/1200/800",
+          "thumbnail": "https://picsum.photos/seed/nature-04/600/400",
+          "caption": "Manhattan Skyline at Blue Hour",
+          "is_featured": true
+        },
+        {
+          "id": "n5",
+          "album_id": "nature",
+          "album_name": "Nature & Landscapes",
+          "url": "https://picsum.photos/seed/nature-05/1200/800",
+          "thumbnail": "https://picsum.photos/seed/nature-05/600/400",
+          "caption": "First Light — Adirondacks",
+          "is_featured": false
+        },
+        {
+          "id": "n6",
+          "album_id": "nature",
+          "album_name": "Nature & Landscapes",
+          "url": "https://picsum.photos/seed/nature-06/1200/800",
+          "thumbnail": "https://picsum.photos/seed/nature-06/600/400",
+          "caption": "Storm Over the Atlantic",
+          "is_featured": false
+        }
+      ]
+    },
+    {
+      "id": "birthdays",
+      "name": "Birthdays & Celebrations",
+      "description": "Milestone moments deserve milestone photographs. From intimate gatherings to grand soirées, every celebration captured with joy and artistry.",
+      "cover": "https://picsum.photos/seed/birthday-cover-art/800/600",
+      "year": 2024,
+      "photos": [
+        {
+          "id": "b1",
+          "album_id": "birthdays",
+          "album_name": "Birthdays & Celebrations",
+          "url": "https://picsum.photos/seed/birthday-01/1200/800",
+          "thumbnail": "https://picsum.photos/seed/birthday-01/600/400",
+          "caption": "Sweet Sixteen Garden Party",
+          "is_featured": false
+        },
+        {
+          "id": "b2",
+          "album_id": "birthdays",
+          "album_name": "Birthdays & Celebrations",
+          "url": "https://picsum.photos/seed/birthday-02/1200/800",
+          "thumbnail": "https://picsum.photos/seed/birthday-02/600/400",
+          "caption": "50th Anniversary Celebration",
+          "is_featured": true
+        },
+        {
+          "id": "b3",
+          "album_id": "birthdays",
+          "album_name": "Birthdays & Celebrations",
+          "url": "https://picsum.photos/seed/birthday-03/800/1200",
+          "thumbnail": "https://picsum.photos/seed/birthday-03/400/600",
+          "caption": "Surprise Birthday — Rooftop Bar",
+          "is_featured": false
+        },
+        {
+          "id": "b4",
+          "album_id": "birthdays",
+          "album_name": "Birthdays & Celebrations",
+          "url": "https://picsum.photos/seed/birthday-04/1200/800",
+          "thumbnail": "https://picsum.photos/seed/birthday-04/600/400",
+          "caption": "Graduation Ceremony",
+          "is_featured": false
+        },
+        {
+          "id": "b5",
+          "album_id": "birthdays",
+          "album_name": "Birthdays & Celebrations",
+          "url": "https://picsum.photos/seed/birthday-05/1200/800",
+          "thumbnail": "https://picsum.photos/seed/birthday-05/600/400",
+          "caption": "Baby Shower — Botanical Garden",
+          "is_featured": false
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion & Lifestyle",
+      "description": "Where art meets commerce. Editorial fashion photography and lifestyle shoots that communicate brand identity with visual elegance and cultural resonance.",
+      "cover": "https://picsum.photos/seed/fashion-cover-art/800/600",
+      "year": 2023,
+      "photos": [
+        {
+          "id": "f1",
+          "album_id": "fashion",
+          "album_name": "Fashion & Lifestyle",
+          "url": "https://picsum.photos/seed/fashion-01/800/1200",
+          "thumbnail": "https://picsum.photos/seed/fashion-01/400/600",
+          "caption": "Spring Collection Lookbook",
+          "is_featured": false
+        },
+        {
+          "id": "f2",
+          "album_id": "fashion",
+          "album_name": "Fashion & Lifestyle",
+          "url": "https://picsum.photos/seed/fashion-02/1200/800",
+          "thumbnail": "https://picsum.photos/seed/fashion-02/600/400",
+          "caption": "Streetwear Editorial — SoHo",
+          "is_featured": false
+        },
+        {
+          "id": "f3",
+          "album_id": "fashion",
+          "album_name": "Fashion & Lifestyle",
+          "url": "https://picsum.photos/seed/fashion-03/800/1200",
+          "thumbnail": "https://picsum.photos/seed/fashion-03/400/600",
+          "caption": "Couture — Studio White",
+          "is_featured": true
+        },
+        {
+          "id": "f4",
+          "album_id": "fashion",
+          "album_name": "Fashion & Lifestyle",
+          "url": "https://picsum.photos/seed/fashion-04/1200/800",
+          "thumbnail": "https://picsum.photos/seed/fashion-04/600/400",
+          "caption": "Lifestyle Campaign — Hamptons",
+          "is_featured": false
+        },
+        {
+          "id": "f5",
+          "album_id": "fashion",
+          "album_name": "Fashion & Lifestyle",
+          "url": "https://picsum.photos/seed/fashion-05/800/1200",
+          "thumbnail": "https://picsum.photos/seed/fashion-05/400/600",
+          "caption": "Autumn/Winter Catalog",
+          "is_featured": true
+        },
+        {
+          "id": "f6",
+          "album_id": "fashion",
+          "album_name": "Fashion & Lifestyle",
+          "url": "https://picsum.photos/seed/fashion-06/1200/800",
+          "thumbnail": "https://picsum.photos/seed/fashion-06/600/400",
+          "caption": "Brand Identity — Minimalist Series",
+          "is_featured": false
+        }
+      ]
+    }
+  ]
+}
