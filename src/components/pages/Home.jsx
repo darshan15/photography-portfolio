@@ -33,7 +33,7 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 text-center text-white px-4">
           <p className="animate-fade-in-up text-xs font-semibold uppercase tracking-[0.3em] text-gold-400 mb-5">
-            Darshan Patel Photography
+            Through my lens Photography
           </p>
           <h1 className="animate-fade-in-up animation-delay-200 font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-none mb-6">
             {photographer.name}

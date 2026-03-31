@@ -72,8 +72,6 @@ export default function About() {
                   { icon: <PinIcon />,       text: photographer.location },
                   { icon: <InstagramIcon />, text: photographer.instagram },
                   { icon: <FacebookIcon />,  text: photographer.facebook },
-                  { icon: <TwitterIcon />,   text: photographer.twitter },
-                  { icon: <LinkedInIcon />,  text: photographer.linkedin },
                 ].map(({ icon, text }) => (
                   <div key={text} className="flex items-center gap-3 text-neutral-500 dark:text-neutral-400">
                     <span className="text-gold-500 shrink-0">{icon}</span>

@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <h3 className="font-serif text-2xl text-white mb-3">{name}</h3>
             <p className="text-sm leading-relaxed text-neutral-500 mb-6">
-              Professional photography services across New York and worldwide. Every moment deserves to be remembered beautifully.
+              Professional photography services across Texas and worldwide. Every moment deserves to be remembered beautifully.
             </p>
             <a
               href={`mailto:${email}`}
@@ -66,7 +66,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-600">
           <span>© {new Date().getFullYear()} {name}. All rights reserved.</span>
-          <span>Crafted with care in New York City</span>
+          <span>Crafted with care in Austin</span>
         </div>
       </div>
     </footer>

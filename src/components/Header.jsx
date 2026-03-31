@@ -45,7 +45,7 @@ export default function Header() {
               transparent ? 'text-white' : 'text-neutral-900 dark:text-neutral-100'
             }`}
           >
-            Alexandra<span className="text-gold-500"> Morgan</span>
+            DARSHAN<span className="text-gold-500"> PATEL</span>
           </Link>
 
           {/* Desktop Nav */}

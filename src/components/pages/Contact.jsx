@@ -121,8 +121,8 @@ export default function Contact() {
               <div className="p-6 bg-gold-500/5 border border-gold-500/20 rounded-2xl">
                 <p className="text-xs font-semibold uppercase tracking-widest text-gold-500 mb-2">Availability</p>
                 <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Currently accepting bookings for weddings and events from{' '}
-                  <strong className="text-neutral-800 dark:text-neutral-200">Spring 2026</strong> onwards.
+                  Currently accepting bookings for events from{' '}
+                  <strong className="text-neutral-800 dark:text-neutral-200">Spring </strong> onwards.
                   Corporate and portrait sessions available year-round.
                 </p>
               </div>
